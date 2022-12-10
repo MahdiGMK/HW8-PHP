@@ -136,3 +136,12 @@ body {
     width: 20px;
 
 }
+
+.medals {
+    list-style-type: none;
+    text-align: center;
+}
+
+.skills {
+    margin-left: calc(50% - 150pt * 3 / 2);
+}
