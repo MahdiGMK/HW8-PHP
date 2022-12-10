@@ -1,4 +1,4 @@
-* {
+body {
     background-color: #EBC117;
     font-family: Nazanin;
     /* for now */
@@ -67,10 +67,12 @@
     background-color: #A80BD4;
     border-radius: 10px;
 }
+
 .index-navi li {
     float: left;
     width: 200pt;
 }
+
 .index-navi li a {
     font-size: 20pt;
     font-weight: bold;
@@ -85,9 +87,52 @@
     text-decoration: none;
 }
 
-.thuglife{
+.thuglife {
     width: 300pt;
     margin-top: 20pt;
     margin-left: calc(50% - 150pt);
     border-radius: 20pt;
+}
+
+.footer {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1A237E;
+    border-radius: 10px;
+}
+
+.footer li {
+    float: right;
+    color: white;
+    text-align: center;
+    display: block;
+    background-color: #1A237E;
+}
+
+.footer li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.footer li a:hover {
+    background-color: #0091EA;
+}
+
+.footer li p {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px;
+
+}
+
+.footer img {
+    width: 20px;
+
 }
