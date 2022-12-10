@@ -145,3 +145,32 @@ body {
 .skills {
     margin-left: calc(50% - 150pt * 3 / 2);
 }
+
+
+.contact_table{
+    color: #ffffff;
+    border-radius:10px;
+    height:  550px;
+    width: 100%;
+    border-color: black;
+}
+.contact_table ul,h2,form{
+    
+    text-align: right;
+    direction: rtl;
+}
+.contact_table p{
+    font-size: 25pt;
+    font-weight: bold;
+    text-align: right;
+    direction: rtl;
+}
+.contact_table img{
+    width: 350px;
+    border-radius: 15px;
+    box-shadow:black 3px 3px;
+
+}
+.contact_table textarea,input{
+    width: 100%;
+}
