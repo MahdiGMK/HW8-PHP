@@ -1,5 +1,5 @@
 <?php
-$name = $_POST["ٔName"];
+$name = $_POST["Name"];
 $mail = $_POST["Mail"];
 $massage = $_POST["Msg"];
 
