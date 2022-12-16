@@ -49,10 +49,10 @@
           <td></td>
           <td>
             <h2>فرم ارتباط با من:</h2>
-            <form onsubmit="return Submit();">
-              <input id="name" placeholder="نام و نام خانوادگی"><br><br>
-              <input id="mail" placeholder="آدرس ایمیل"><br><br>
-              <textarea id="msg" placeholder="پیام" cols="50" rows="10"></textarea>
+            <form onsubmit="return Submit();" method="post" action="backend.php">
+              <input name="Name" placeholder="نام و نام خانوادگی"><br><br>
+              <input name="Mail" placeholder="آدرس ایمیل"><br><br>
+              <textarea name="Msg" placeholder="پیام" cols="50" rows="10"></textarea>
               <input type="submit" value="Submit">
             </form>
           </td>
